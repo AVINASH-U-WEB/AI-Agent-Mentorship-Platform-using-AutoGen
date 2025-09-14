@@ -1,0 +1,6 @@
+# pyproject.toml (add or update to suppress pytest warning and set auto mode)
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+filterwarnings = [
+  "ignore::DeprecationWarning",
+]
